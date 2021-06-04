@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.playerInfoBlock {
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headline{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 60px
+}

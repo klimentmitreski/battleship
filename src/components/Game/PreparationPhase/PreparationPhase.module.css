@@ -1,0 +1,20 @@
+.underBoardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px
+}
+
+.underBoardContainerRight{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    align-items: baseline
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}

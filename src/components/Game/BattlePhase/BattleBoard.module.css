@@ -1,0 +1,54 @@
+.board {
+    height:406px;
+    width:406px;
+    min-height: 406px;
+    min-width: 406px;
+    background-image:url('/src/assets/sea.jpg');
+    opacity: 0.65;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left: 5px;
+  }
+
+  .block {
+    flex:1;
+    min-height:40px;
+    min-width:40px;
+    border: 1px solid white
+  }
+
+  .bigBoard {
+    height:406px;
+    width:406px;
+    min-height: 406px;
+    min-width: 406px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    background-image:url('/src/assets/sea.jpg');
+    opacity: 0.65;
+    transition:0.3s;
+    transition-delay: 0.5s;
+    transform: scale(1.2);
+    transform-origin: top;
+  }
+
+  .smallBoard {
+    height:406px;
+    width:406px;
+    min-height: 406px;
+    min-width: 406px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    pointer-events: none;
+    background-image:url('/src/assets/sea.jpg');
+    opacity:0.2;
+    transition:0.3s;
+    transition-delay: 0.5s;
+    transform: scale(0.7);
+    transform-origin: top;
+  }
+  
+  

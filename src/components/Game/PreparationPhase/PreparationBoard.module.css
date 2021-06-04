@@ -1,0 +1,44 @@
+.board {
+    height:406px;
+    width:406px;
+    min-height: 406px;
+    min-width: 406px;
+    background-image:url('/src/assets/sea.jpg');
+    opacity: 0.65;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap
+  }
+
+  .block {
+    flex:1;
+    min-height:40px;
+    min-width:40px;
+    border: 1px solid white;
+  }
+
+  .placedBlock {
+    flex:1;
+    min-height:40px;
+    min-width:40px;
+    border: 1px solid white;
+    background-color:  #A9A9A9;
+  }
+  
+  .hoverBlock {
+    flex:1;
+    min-height:40px;
+    min-width:40px;
+    border: 1px solid white;
+    background-color: #B0C4DE;
+  }
+  
+  .errorBlock {
+    flex:1;
+    min-height:40px;
+    min-width:40px;
+    border: 1px solid white;
+    background-color: #CD5C5C;
+  }
+  
+  
